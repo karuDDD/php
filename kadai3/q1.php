@@ -3,7 +3,7 @@
 - **要件**: "Hello, World!"と出力する関数`sayHello`を定義してください。-->
 
 <?php
-function logmassege(){
-    echo "Hello, World"
+function sayhello(){
+    echo "Hello, World!";
 }
 ?>
