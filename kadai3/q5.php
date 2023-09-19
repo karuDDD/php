@@ -1,8 +1,10 @@
 <!--文字列を引数に取り、その文字列を反転したものを返す関数`reverseString`を定義してください。-->
 <?php
-$numbers = ("1.2.3.4.5");
+$num = "abcdefg";
+$word =  reverseString($num);
+ echo $word;
 
-function reverseString($numbers){
-    return str;
-}
+ function reverseString($num){
+    var_dump( strrev($num) );
+ }
 ?>
